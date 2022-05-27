@@ -1,37 +1,69 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/0JYL0/Not-Special-At-All/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+        pre{
+            font: 15px bold;
+        }
+    </style>
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+    Jyl@123
+    <div>
+        <pre>
+            <div><label>User Name : </label>        <input type="text" name="" id="user" required></div>
+            <div><label>password : </label>         <input type="password" name="" id="pass" required></div>
+            <div><label>Re-Enter password : </label><input type="password" name="" id="repass" required></div>
+        </pre>
 
-### Markdown
+        <div><input type="submit" value="Sign Up" onclick="Register()"></div>
+        <p id="msg" style="color: red;"></p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    </div>
 
-```markdown
-Syntax highlighted code block
+    <br><br>
 
-# Header 1
-## Header 2
-### Header 3
+    <div>
+        <table cellpadding="5">
+            <th>Name</th>
+            <th>Password</th>
+            <tbody id="body">
 
-- Bulleted
-- List
+            </tbody>
+        </table>
+    </div>
 
-1. Numbered
-2. List
+    <br><br><br><br>
 
-**Bold** and _Italic_ and `Code` text
+    <div>
+        <div>
 
-[Link](url) and ![Image](src)
-```
+            <pre>
+            <div><label>User Name : </label><input type="text" id="usr" required></div>
+            <div><label>Password : </label> <input type="password" id="pass1" required>
+            </div>
+        </pre>
+            <div>
+                <input type="submit" value="submit" onclick="signin()">
+            </div>
+            <p id="msg1" style="color: red;"></p>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+        </div>
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/0JYL0/Not-Special-At-All/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    </div>
+    <script src="login.js"></script>
+</body>
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
